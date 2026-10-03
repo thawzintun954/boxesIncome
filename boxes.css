@@ -1,0 +1,56 @@
+.boxcontainer {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  margin-right: 120px;
+}
+.box {
+  cursor: pointer;
+  width: 150px;
+
+  border: 1px solid red;
+  border-radius: 20px;
+  border-color: red;
+  background-color: yellow;
+  height: 50px;
+}
+.p-5 {
+  text-align: center;
+
+  height: 10px;
+}
+.trash {
+  cursor: pointer;
+  padding-top: 4px;
+  margin-left: 20px;
+}
+table {
+  user-select: none;
+}
+th {
+  border: 2px solid red;
+  font-size: 18px;
+}
+td {
+  border: 2px solid red;
+  font-size: 15px;
+  width: 150px;
+  padding: 10px;
+}
+.grand {
+  background-color: aquamarine;
+}
+.finaltd {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-top: 2px solid red;
+}
+.thaw {
+  background-image: none;
+  background-size: cover;
+  background-clip: text;
+}
+input {
+  user-select: none;
+}
