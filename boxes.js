@@ -156,7 +156,7 @@ boxOneTag.addEventListener("click", () => {
   // let boxOnePrice = (box1 += 500);
 
   let Total = Number(BoxOneTotal.innerText);
-  if (tdquantity.innerText >= Total) {
+  if (Total === 0) {
     alert("Please Check Your Total......");
   } else {
     No1 += 1;
@@ -169,7 +169,6 @@ boxOneTag.addEventListener("click", () => {
   calcgrand();
 });
 trashOne.addEventListener("click", () => {
-  console.log("delete on time..");
   if (No1 > 0) {
     No1 -= 1;
     let Total = Number(BoxOneTotal.innerText);
@@ -200,7 +199,7 @@ tdprice2.innerText = 0;
 const boxTwoTag = document.getElementsByClassName("Two")[0];
 boxTwoTag.addEventListener("click", () => {
   let Total = Number(BoxTwoTotal.innerText);
-  if (tdquantity2.innerText >= Total) {
+  if (Total === 0) {
     alert("Please Check Your Total......");
   } else {
     No2 += 1;
@@ -212,7 +211,6 @@ boxTwoTag.addEventListener("click", () => {
   calcgrand();
 });
 trashTwo.addEventListener("click", () => {
-  console.log("delete on time..");
   if (No2 > 0) {
     No2 -= 1;
     let Total = Number(BoxTwoTotal.innerText);
@@ -286,7 +284,7 @@ tdprice4.innerText = 0;
 const boxFourTag = document.getElementsByClassName("Four")[0];
 boxFourTag.addEventListener("click", () => {
   let Total = Number(BoxFourTotal.innerText);
-  if (tdquantity4.innerText >= Total) {
+  if (Total === 0) {
     alert("Please Check Your Total......");
   } else {
     No4 += 1;
@@ -298,7 +296,6 @@ boxFourTag.addEventListener("click", () => {
   calcgrand();
 });
 trashFour.addEventListener("click", () => {
-  console.log("delete on time..");
   if (No4 > 0) {
     No4 -= 1;
     let Total = Number(BoxFourTotal.innerText);
@@ -330,7 +327,7 @@ tdprice5.innerText = 0;
 const boxFiveTag = document.getElementsByClassName("Five")[0];
 boxFiveTag.addEventListener("click", () => {
   let Total = Number(BoxFiveTotal.innerText);
-  if (tdquantity5.innerText >= Total) {
+  if (Total === 0) {
     alert("Please Check Your Total......");
   } else {
     No5 += 1;
@@ -342,7 +339,6 @@ boxFiveTag.addEventListener("click", () => {
   calcgrand();
 });
 trashFive.addEventListener("click", () => {
-  console.log("delete on time..");
   if (No5 > 0) {
     No5 -= 1;
     let Total = Number(BoxFiveTotal.innerText);
